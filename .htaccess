@@ -1,0 +1,7 @@
+# BLOQUEAR ACESSO AOS ARQUIVOS #
+# BLOCK ACCESS TO FILES #
+
+<Files ~ "\.inc$">  
+Order Allow,Deny
+Deny from All
+</Files>
